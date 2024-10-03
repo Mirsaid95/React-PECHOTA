@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 70vh;
+    height: 75vh;
     position: relative;
 }
 .title_btn{
@@ -16,10 +16,17 @@
     flex-direction: column;
     gap: 30px;
     .hero_title{
+        width: 500px;
         font-size: 52px;
         font-weight: 700;
         line-height: 61px;
         color: white;
+        &:hover{
+            border-left: 1px solid crimson;
+            border-bottom: 1px solid crimson;
+            
+        }
+        
     }
     .hero_list{
         font-family: 'Times New Roman', Times, serif;
@@ -27,6 +34,12 @@
         width: 37%;
         color: white;
         line-height: 22px;
+        &:hover{
+            border-left: 1px solid rgba(116, 116, 235, 0.723);
+            border-bottom: 1px solid rgba(116, 116, 235, 0.723);
+            padding-left: 3px;
+            
+        }
     }
     .hero_btn{
         width: 165px;
@@ -37,5 +50,8 @@
         font-size: 16px;
         font-weight: 600;
         cursor: pointer;
+        &:hover{
+            box-shadow: 1px 1px 2px 1px rgba(116, 116, 235, 0.723);
+        }
     }
 }
